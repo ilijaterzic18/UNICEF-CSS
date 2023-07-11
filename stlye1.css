@@ -1,0 +1,417 @@
+body {
+    font-family: 'Poppins';
+    margin: 0;
+    height: 100vh;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* HEADER START */
+header {
+    position: fixed;
+    top: 0;
+    /* AKO SE NE DODA OVO, ONDA STICKY NECE DA RADI */
+    display: flex;
+    justify-content: space-between;
+    background-color: #F9F9F9;
+    height: 64px;
+    width: 100%;
+    z-index: 1;
+}
+
+.prazan-i-logo {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+li a:hover,
+button:hover {
+    color: #C0C0C0;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+}
+
+.sign-and-lang {
+    display: flex;
+    border-radius: 0px 0px 0px 32px;
+}
+
+.sign-and-lang a {
+    color: white;
+
+}
+
+.reg-i-log-container {
+    display: flex;
+    align-items: center;
+    background-color: #F0685E;
+    border-radius: 0px 0px 0px 32px;
+}
+
+.reg-i-log-container a {
+    font-weight: bold;
+}
+
+.registration {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    background-color: #058085;
+    height: 100%;
+    border-radius: 0px 0px 0px 32px;
+    padding-left: 20px;
+}
+
+.languages-container {
+    display: flex;
+    align-items: center;
+    background-color: #058085;
+    gap: 5px;
+    padding-right: 10px;
+    padding-left: 20px;
+}
+
+/* HEADER END */
+
+
+/* BANNER START */
+
+.banner {
+    position: relative;
+    margin-top: 64px;
+    /* zbog position: fixed kod header-a*/
+}
+
+.banner-image-container {
+    position: relative;
+}
+
+.banner-image {
+    height: 100%;
+    width: 100%;
+}
+
+.banner-text-and-btn {
+    position: absolute;
+    top: 30%;
+    left: 8%;
+}
+
+.banner-text {
+    display: inline-block;
+    font-size: 80px;
+    font-family: Poppins;
+    font-weight: 700;
+    background-color: white;
+    word-break: break-word;
+}
+
+.btn-banner {
+    width: 148px;
+    height: 56px;
+    border-radius: 32px;
+    border-style: none;
+    background-color: white;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-banner:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+}
+
+/* BANNER END */
+
+/* VOLUNTEER SECTION START */
+
+.section-volonteri {
+    display: flex;
+    padding-top: 30px;
+    margin-top: -7px;
+    background-color: #FFE8E0;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.volunteer-text {
+    font-size: 56px;
+    color: #F0685E;
+    font-weight: 700;
+}
+
+.volunteer-text-shadow {
+    position: relative;
+    left: 50px;
+    font-size: 80px;
+    font-weight: 700;
+    color: rgba(240, 104, 94, 0.3);
+    line-height: 0;
+}
+
+.btn-volunteer {
+    position: relative;
+    top: 30px;
+    width: 148px;
+    height: 56px;
+    border-style: none;
+    border-radius: 28px;
+    background-color: #F0685E;
+    font-family: 'Poppins';
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn-volunteer:hover {
+    background-color: rgba(240, 104, 94, 0.8);
+    color: white;
+}
+
+/* VOLUNTEER SECTION END */
+
+/* ORGANIZATION SECTION START */
+
+.section-organizacije {
+    display: flex;
+    background-color: #E9F9F1;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.organization-text {
+    font-size: 56px;
+    color: #058085;
+    font-weight: 700;
+}
+
+.organization-text-shadow {
+    position: relative;
+    left: 50px;
+    font-size: 80px;
+    font-weight: 700;
+    color: rgba(5, 128, 133, 0.5);
+    line-height: 0;
+}
+
+.btn-organizacija {
+    position: relative;
+    top: 30px;
+    width: 198px;
+    height: 56px;
+    border-style: none;
+    border-radius: 28px;
+    background-color: #058085;
+    font-family: 'Poppins';
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn-organizacija:hover {
+    background-color: rgba(5, 128, 133, 0.8);
+    color: white;
+}
+
+/* ORGANIZATION SECTION END */
+
+/* VOLONTIRAJ SECTION START */
+
+.section-volontiraj {
+    padding: 3%;
+}
+
+.volontiraj-i-prikazi-sve {
+    display: flex;
+    justify-content: space-between;
+}
+
+.volontiraj-label {
+    display: flex;
+    font-size: 56px;
+    font-weight: 700;
+    color: #3D5D91;
+    /* justify-content: flex-start; */
+    /* align-items: flex-start; */
+}
+
+.prikazi-sve-label {
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    color: #252525;
+    /* justify-content: flex-end; */
+    align-items: flex-end;
+    padding-bottom: 17px;
+}
+
+.volunteer-suggestions-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.suggestion {
+    width: 386px;
+}
+
+.suggestion-image-container {
+    width: 386px;
+    height: 282px;
+}
+
+.suggestion-info {
+    margin-top: -1px;
+    background-color: #3D5D91;
+    color: white;
+    padding: 10%;
+    /* min-width: 100%; */
+}
+
+.suggestion-image-container {
+    margin-top: -1px;
+}
+
+.btn-suggestion-prijavi-se {
+    border-radius: 28px;
+    border: solid 1px white;
+    background-color: #3D5D91;
+    color: white;
+    font-family: Poppins;
+    width: 148px;
+    height: 56px;
+
+}
+
+/* VOLONTIRAJ SECTION END */
+
+
+/* STATISTICS SECTION START */
+
+.statistics {
+    display: flex;
+    background-color: #FFE8E0;
+    height: 356px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.single-statistics-container {
+    text-align: center;
+}
+
+.statistics-broj {
+    font-family: 'Poppins';
+    font-size: 56px;
+    font-weight: 700;
+    color: #F0685E;
+}
+
+.statistics-text {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* STATISTICS SECTION END */
+
+
+/* BLOG SECTION START */
+
+.section-blog {
+    padding: 3%;
+    background-color: #FFF6DE;
+}
+
+.blog-text {
+    font-family: 'Poppins';
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.prikazi-sve-blog {
+    display: flex;
+    font-weight: 500;
+    font-size: 16px;
+    align-items: flex-end;
+    padding-bottom: 17px;
+}
+
+.blog-i-prikazi-sve {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blogs-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.date-i-share {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-naslov {
+    font-size: 16px;
+    font-weight: 500;
+    color: #B3B3B3;
+}
+
+.blog-content {
+    margin-top: -8px;
+    width: 384px;
+    background-color: white;
+    padding: 10%;
+    max-width: 80%;
+}
+
+.btn-blog {
+    width: 148px;
+    height: 56px;
+    border-radius: 28px;
+    border: 1px solid black;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+    background-color: white;
+}
+
+/* BLOG SECTION END */
+
+/* FOOTER SECTION START */
+
+footer {
+    background-color: #058085;
+    color: white;
+}
+
+/* FOOTER SECTION END */

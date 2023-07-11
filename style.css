@@ -1,0 +1,152 @@
+/* VRLO KORISNO:
+    https://www.youtube.com/watch?v=jx5jmI0UlXU */
+
+body {
+    font-family: 'Poppins';
+    margin: 0;
+}
+
+Img {
+    height: 50px;
+    width: 50px;
+}
+
+li {
+    list-style: none;
+    white-space: nowrap;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    overflow: auto;
+}
+
+.placeholder {
+    margin-left: 0px;
+    width: 8.33%;
+}
+
+.main-menu {
+    padding: 15%;
+}
+
+.main-menu ul {
+    display: flex;
+}
+
+.main-menu li {
+    padding: 10px;
+}
+
+.registration-menu {
+    margin-left: auto;
+    background-color: #F0685E;
+    border-radius: 0px 0px 0px 32px;
+    display: flex;
+    height: 100%;
+    font-weight: bold;
+    width: 20%;
+    justify-content: space-evenly;
+    width: 200px;
+}
+
+.registration-menu a {
+    color: white;
+}
+
+#li-login {
+    background-color: #058085;
+    border-radius: 0px 0px 0px 32px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+#li-signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+} */
+
+/* DODATNO */
+
+.flexbox-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.flexbox-item {
+    width: 200px;
+    margin: 10px;
+    border: 30px solid #333;
+    background-color: #dfdfdf;
+}
+
+.flexbox-item3 {
+    justify-self: flex-end;
+}
+
+.sve-gore {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pocetni {
+    display: flex;
+    gap: 50px;
+}
+
+.glavni-meni ul {
+    display: flex;
+}
+
+.lista-glavnih {
+    /* display: flex; */
+    gap: 20px;
+}
+
+.prijavljivanje {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* gap: 20px; */
+    background-color: #F0685E;
+    border-radius: 0px 0px 0px 32px;
+    width: 230px;
+}
+
+.prijavljivanje a {
+    color: white;
+    font-weight: bold;
+}
+
+.registracija {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-grow: 1;
+    width: 140px;
+}
+
+.prijava {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #058085;
+    flex-grow: 1;
+    height: 100%;
+    border-radius: 0px 0px 0px 32px;
+    width: 100px;
+}
+
