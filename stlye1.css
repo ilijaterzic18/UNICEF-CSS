@@ -412,6 +412,59 @@ button:hover {
 footer {
     background-color: #058085;
     color: white;
+    padding: 5%;
+}
+
+.footer-logo-i-nav {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    gap: 200px;
+    margin-bottom: 50px;
+}
+
+.footer-logo {
+    height: 24px;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-nav li {
+    display: inline-block;
+}
+
+.footer-nav li a {
+    color: white;
+}
+
+.footer-kontakti label {
+    font-weight: bold;
+
+}
+
+.footer-kontakt-uslovi-mreze {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+    margin-bottom: 50px;
+}
+
+.podrzao-i-logo {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.projekat-podrzao {
+    font-weight: bold;
+}
+
+.copyright {
+    text-align: right;
+    font-weight: normal;
 }
 
 /* FOOTER SECTION END */
