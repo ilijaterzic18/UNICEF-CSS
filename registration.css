@@ -1,0 +1,217 @@
+body {
+    font-family: 'Poppins';
+    margin: 0;
+    height: 100vh;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* HEADER START */
+header {
+    position: fixed;
+    top: 0;
+    /* AKO SE NE DODA OVO, ONDA STICKY NECE DA RADI */
+    display: flex;
+    justify-content: space-between;
+    background-color: #F9F9F9;
+    height: 64px;
+    width: 100%;
+    z-index: 1;
+}
+
+.prazan-i-logo {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+li a:hover,
+button:hover {
+    color: #C0C0C0;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+}
+
+.sign-and-lang {
+    display: flex;
+    border-radius: 0px 0px 0px 32px;
+}
+
+.sign-and-lang a {
+    color: white;
+
+}
+
+.reg-i-log-container {
+    display: flex;
+    align-items: center;
+    background-color: #F0685E;
+    border-radius: 0px 0px 0px 32px;
+}
+
+.reg-i-log-container a {
+    font-weight: bold;
+}
+
+.registration {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    background-color: #058085;
+    height: 100%;
+    border-radius: 0px 0px 0px 32px;
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+.languages-container {
+    display: flex;
+    align-items: center;
+    background-color: #058085;
+    gap: 5px;
+    padding-right: 10px;
+}
+
+/* HEADER END */
+
+main {
+    margin-top: 128px;
+    margin-bottom: 128px;
+    display: flex;
+    justify-content: center;
+}
+
+main h1 {
+    font-weight: 600;
+}
+
+.vol-i-org {
+    display: flex;
+}
+
+.reg-vol {
+    background-color: #FFE8E0;
+    padding: 4%;
+}
+
+.reg-vol h2 {
+    color: #F0685E;
+    font-size: 56px;
+}
+
+.reg-vol button {
+    background-color: #F0685E;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 28px;
+    width: 148px;
+    height: 56px;
+}
+
+.reg-org {
+    background-color: #E9F9F1;
+    padding: 4%;
+}
+
+.reg-org h2 {
+    color: #058085;
+    font-size: 56px;
+}
+
+.reg-org button {
+    background-color: #058085;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 28px;
+    width: 148px;
+    height: 56px;
+}
+
+/* FOOTER SECTION START */
+
+footer {
+    background-color: #058085;
+    color: white;
+    padding: 5%;
+}
+
+.footer-logo-i-nav {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    gap: 200px;
+    margin-bottom: 50px;
+}
+
+.footer-logo {
+    height: 24px;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-nav li {
+    display: inline-block;
+}
+
+.footer-nav li a {
+    color: white;
+}
+
+.footer-kontakti label {
+    font-weight: bold;
+
+}
+
+.footer-kontakt-uslovi-mreze {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+    margin-bottom: 50px;
+}
+
+.podrzao-i-logo {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.projekat-podrzao {
+    font-weight: bold;
+}
+
+.copyright {
+    text-align: right;
+    font-weight: normal;
+}
+
+/* FOOTER SECTION END */
