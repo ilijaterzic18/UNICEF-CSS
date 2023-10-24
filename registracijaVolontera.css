@@ -1,0 +1,114 @@
+body {
+    font-family: 'Poppins';
+    padding: 0;
+    margin: 0;
+    background-color: #FFE8E0;
+}
+
+.nav-bar li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* NAVBAR START */
+
+header {
+    padding-left: 5%!important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F9F9F9;
+    height: 64px;
+}
+
+.prazan-logo {
+    display: flex;
+    gap: 50px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.nav-bar li a:hover {
+    color: #C0C0C0;
+}
+
+.reg-log-lang {
+    display: flex;
+    border-radius: 0px 0px 0px 32px;
+    color: white;
+    height: 100%;
+}
+
+.reg-log {
+    display: flex;
+    background-color: #F0685E;
+    gap: 15px;
+    padding-left: 15px;
+    align-items: center;
+    border-radius: 0px 0px 0px 32px;
+    height: 100%;
+}
+
+.log {
+    background-color: #058085;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    border-radius: 0px 0px 0px 32px;
+}
+
+.reg {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 0px 0px 0px 32px;
+}
+
+.log a, .reg a {
+    color: white;
+}
+
+.log a:hover,
+.reg a:hover {
+    color: #C0C0C0;
+}
+
+.lang {
+    display: flex;
+    background-color: #058085;
+    gap: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: center;
+}
+
+/* NAVBAR END */
+
+/* MAIN SECTION START */
+
+main {
+    padding-left: 5%!important;
+}
+
+.gornji-deo-forme {
+    display: flex;
+}
+
+.zahtevi p {
+    margin: 0;
+}
+.zahtevi ul {
+    padding-left: 20px;
+    line-height: 15px;
+    margin: 0;
+}
+
+/* MAIN SECTION END */

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registracija Volontera</title>
+    <link rel="stylesheet" href="registracijaVolontera.css">
+</head>
+
+<body>
+    <!-- GORNJI DEO POCETAK -->
+    <header class="gornji-meni">
+        <div class="prazan-logo">
+            <!-- sledecu liniju sam namerno zakomentarisao da bih stavio padding-left: 5%!important na header i main kako bi razmak od levo uvek bio isti za obe sekcije -->
+            <!-- <div class="prazan"></div>  -->
+            <a href="homepage.html"><img src="logo VNM 1.png" alt="logo"></a>
+        </div>
+        <nav class="nav-bar">
+            <li><a href="#">Naslovna &nbsp;&nbsp;&nbsp;|</a></li>
+            <li><a href="#">O nama &nbsp;&nbsp;&nbsp;|</a></li>
+            <li><a href="#">Volontiraj &nbsp;&nbsp;&nbsp;|</a></li>
+            <li><a href="#">Blog</a></li>
+        </nav>
+        <div class="reg-log-lang">
+            <div class="reg-log">
+                <div class="reg"><a href="#">Registracija</a></div>
+                <div class="log"><a href="#">Prijava</a></div>
+            </div>
+            <div class="lang">
+                <li>SR</li>
+                <li>ENG</li>
+            </div>
+        </div>
+    </header>
+    <!-- GORNJI DEO KRAJ -->
+    <!-- GLAVNI DEO POCETAK -->
+    <main>
+        <div class="naslov">
+            <h1 class="volonteri">Volonteri</h1>
+        </div>
+        <div class="gornji-deo-forme">
+            <div class="levi-deo">
+                <div class="podnaslov">
+                    <h2 class="kreiraj-nalog">Kreiraj nalog</h2>
+                </div>
+                <div class="email">
+                    <label for="polje-za-mail">ili koristi e-mail adresu</label><br>
+                    <input id="polje-za-mail" name="polje-za-mail" type="email" placeholder="Unesi e-mail">
+                </div>
+                <div class="password">
+                    <label for="password">Lozinka</label><br>
+                    <input type="password" id="password" name="password">
+                </div>
+                <div class="zahtevi">
+                    <p>Zahtevi za lozinku:</p>
+                    <ul>
+                        <li>Najmanje 8 znakova duzine</li>
+                        <li>Najmanje jedna broj</li>
+                        <li>Najmanje jedan simbol</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="desna-slika">
+                <img src="Registracija Volontera.png" alt="Animacija volontera">
+            </div>
+        </div>
+    </main>
+    <!-- GLAVNI DEO KRAJ -->
+</body>
+
+</html>

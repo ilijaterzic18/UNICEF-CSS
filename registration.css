@@ -133,6 +133,10 @@ main h1 {
     height: 56px;
 }
 
+.reg-vol button a {
+    color: white;
+}
+
 .reg-org {
     background-color: #E9F9F1;
     padding: 4%;
